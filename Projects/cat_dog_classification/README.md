@@ -1,11 +1,9 @@
 # References:
-==============
+
 - https://data-flair.training/blogs/cats-dogs-classification-deep-learning-project-beginners/
 
 
 # Steps to run this project:
-=============================
-NOTE: before initiating to run project, unzip "training_set.zip", "test_set.zip" and "test.zip" from dataset folder.
 
 1) Run the "cat_dog_classification_training.py" script for training the CNN keras model on cat dog classification dataset provided in the project.
 
@@ -15,7 +13,7 @@ NOTE: you can play with this script by changing the optimizer and adding/removin
 
 $ python Inference.py
 
->> output:
+Output:
  cat.4010.jpg ----->	Predicted:  dog 	Actual:  cat
 
  cat.4052.jpg ----->	Predicted:  cat 	Actual:  cat
@@ -33,4 +31,5 @@ $ python Inference.py
  dog.4808.jpg ----->	Predicted:  cat 	Actual:  dog
 
 3) Using Tkinter, app is developed just to get introduced with the Tkinter showcasing the inference rersults.
+
 $ python Tkinter_inference_app.py
